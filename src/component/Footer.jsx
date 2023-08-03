@@ -1,4 +1,8 @@
 import React from "react";
+import f1 from "../img/f-1.png";
+import f3 from "../img/f-3.png";
+import f4 from "../img/f-4.png";
+import f5 from "../img/f-5.png";
 
 function Footer() {
   return (
@@ -19,7 +23,7 @@ function Footer() {
           transform hover:scale-110 transition duration-300"
           >
             <a href="https://github.com/mrakkapol">
-              <img className="mb-3 mx-4 " src="../src/img/f-1.png" alt="" />
+              <img className="mb-3 mx-4 " src={f1} alt="" />
             </a>
             <p className="mb-2 text-black text-center text-[1.75rem] font-semibold tracking-wider">
               Github
@@ -31,7 +35,7 @@ function Footer() {
           transform hover:scale-110 transition duration-300"
           >
             <a href="mailto:mr.akkapol@gmail.com">
-              <img className="mb-3 mx-4 " src="../src/img/f-3.png" alt="" />
+              <img className="mb-3 mx-4 " src={f3} alt="" />
             </a>
             <p className="mb-2 text-black text-center text-[1.75rem] font-semibold tracking-wider">
               E-Mail
@@ -42,7 +46,7 @@ function Footer() {
           transform hover:scale-110 transition duration-300"
           >
             <a href="tel:+66661122787">
-              <img className="mb-3 mx-4 " src="../src/img/f-4.png" alt="" />
+              <img className="mb-3 mx-4 " src={f4} alt="" />
             </a>
             <p className="mb-2 text-black text-center text-[1.75rem] font-semibold tracking-wider">
               Telephone
@@ -53,7 +57,7 @@ function Footer() {
         <div>
           <img
             className=" absolute grayscale bottom-[-3rem] sm:bottom-[-7rem] md:bottom-[-12rem]"
-            src="../src/img/f-5.png"
+            src={f5}
             alt=""
           />
         </div>

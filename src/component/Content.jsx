@@ -1,4 +1,10 @@
 import React from "react";
+import c1 from "../img/c-1.svg";
+import c2 from "../img/c-2.png";
+import c3 from "../img/c-3.png";
+import cb1 from "../img/cb-1.png";
+import cb2 from "../img/cb-2.png";
+import cb3 from "../img/cb-3.png";
 
 function Content() {
   return (
@@ -19,7 +25,7 @@ function Content() {
             className="flex flex-col mb-10 md:mb-0 items-center max-w-[347px] max-h-[280px] p-8 shadow-2xl rounded-2xl
           transform hover:scale-110 transition duration-300"
           >
-            <img className="mb-3 mx-4" src="../src/img/c-1.svg" alt="" />
+            <img className="mb-3 mx-4" src={c1} alt="" />
             <p className="mb-2 text-black text-center text-25 font-semibold tracking-wider">
               Front-End&nbsp;
               <span className="text-black text-25 font-normal tracking-wider">
@@ -34,7 +40,7 @@ function Content() {
             className="flex flex-col mb-10 md:mb-0 items-center max-w-[347px] max-h-[280px] p-8 shadow-2xl rounded-2xl
           transform hover:scale-110 transition duration-300"
           >
-            <img className="mb-3 mx-4" src="../src/img/c-2.png" alt="" />
+            <img className="mb-3 mx-4" src={c2} alt="" />
             <p className="mb-2 text-black text-center text-25 font-semibold tracking-wider">
               Back-End&nbsp;
               <span className="text-black text-25 font-normal tracking-wider">
@@ -49,7 +55,7 @@ function Content() {
             className="flex flex-col items-center max-w-[347px] max-h-[280px] p-8 shadow-2xl rounded-2xl
           transform hover:scale-110 transition duration-300"
           >
-            <img className="mb-3 mx-4" src="../src/img/c-3.png" alt="" />
+            <img className="mb-3 mx-4" src={c3} alt="" />
             <p className="mb-2 text-black text-center text-25 font-semibold tracking-wider">
               UI/UX &nbsp;
               <span className="text-black text-25 font-normal tracking-wider">
@@ -89,7 +95,7 @@ function Content() {
             <div className="w-[200px] h-[200px] bg-[#6C63FF;] opacity-50 rounded-full absolute top-3 left-3 z-0"></div>
             <img
               className="w-289 h-164 object-cover z-10 absolute bottom-1 right-1"
-              src="../src/img/cb-1.png"
+              src={cb1}
               alt="Card Image"
             />
           </div>
@@ -103,7 +109,7 @@ function Content() {
             <div className="w-[200px] h-[200px] bg-[#4DC2F1] opacity-50 rounded-full absolute top-3 left-3 z-0"></div>
             <img
               className="w-289 h-164 object-cover z-10 absolute bottom-1 right-1"
-              src="../src/img/cb-2.png"
+              src={cb2}
               alt="Card Image"
             />
           </div>
@@ -117,7 +123,7 @@ function Content() {
             <div className="w-[200px] h-[200px] bg-[#5F596E] opacity-50 rounded-full absolute top-3 left-3 z-0"></div>
             <img
               className="w-[289px] h-[164px] object-cover z-10 absolute bottom-1 right-1"
-              src="../src/img/cb-3.png"
+              src={cb3}
               alt="Card Image"
             />
           </div>

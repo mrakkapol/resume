@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import headder1 from "../img/headder1.jpg";
 
 function Headder() {
   const [isOpen, setIsOpen] = useState(false);
@@ -95,7 +96,7 @@ function Headder() {
           <div id="passion"></div>
           <div className="flex flex-1 justify-center">
             <img
-              src="../src/img/headder1.jpg"
+              src={headder1}
               alt=""
               className="w-[330px] h-[300px] md:w-[410px] md:h-[367px] rounded-full grayscale  "
             />
