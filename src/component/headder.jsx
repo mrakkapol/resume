@@ -3,8 +3,8 @@ import React from "react";
 function Headder() {
   return (
     <>
-      <div className="">
-        <nav class="bg-gray-800 text-white p-4 flex justify-between mb-10">
+      <div className="max-w-full mb-40">
+        <nav class="bg-gray-800 text-white p-4 flex justify-between mb-20">
           <div class="flex items-center">
             <div class="text-2xl text-gray-400 font-bold">
               Raul<span className="text-gray-600">iqbal</span>
